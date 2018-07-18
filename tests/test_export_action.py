@@ -1,7 +1,7 @@
 # -- encoding: UTF-8 --
 
 from django.contrib.contenttypes.models import ContentType
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.utils.http import urlencode
 
 import pytest
